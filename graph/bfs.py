@@ -25,6 +25,7 @@ class BFS:
             target = self.__prev_setps.get(target)
         return path[::-1]
 
+
 graph = {
     'A': ['B', 'C'],
     'B': ['D'],

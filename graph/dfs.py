@@ -4,7 +4,7 @@ class DFS:
         self.__graph = graph
         self.__stack = [self.__start]
         self.__prev_steps = {node: None for node in self.__graph}
-    
+
     def start(self):
         while self.__stack:
             current = self.__stack.pop()
